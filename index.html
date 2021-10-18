@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icons/smog-solid.svg">
+    <title>Weather</title>
+</head>
+<body>
+    <form action="" id="search-form">
+        <input type="search" name="input" id="search-input" 
+        placeholder="Enter city" 
+        required 
+        autocomplete="off">
+        <button id="search-button">Search</button> 
+    </form>
+    <main id="app-container">
+        <div id="location">
+            <p>----</p>
+        </div>
+        <div id="temp">
+            <img src="./icons/sun.png" alt="" id="temp-icon">
+            <p><span id="temp-value">-----</span><span id="temp-unit">&#176C</span></p>
+        </div>
+        <div id="climate">
+            <p>------</p>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
